@@ -1,0 +1,150 @@
+:root{
+--color-blue-- : #0866ff;
+--color-gray-- : #f2f4f7;
+--color-dark-- : #1c1e21;
+--color-green-- : #42b72a;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Arial",Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-gray--);
+
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 39px;
+    margin-bottom: 100px;
+    width: 500px;
+    gap: 8px;
+    
+}
+
+.left h2{
+    display: flex;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0;
+    color: var(--color-dark--);
+    
+
+    
+}
+
+.left h1{
+    display: flex;
+    font-size: 60px;    
+    margin: 0;
+    color: var(--color-blue--);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 396px;
+    height: 346px;
+    background: #fff;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+
+}
+.inputs{
+    width: 364px;
+    height: 52px;
+    color: var(--color-dark--);
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #ddd;
+    transition: border 0.2s ease-in-out;
+    border-radius: 8px;
+    padding-left: 18px;
+
+}
+
+.inputs:focus{
+    border: 1px solid var(--color-blue--);
+}
+
+.btn{
+    width: 364px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.line{
+    width: 90%;
+    color: var(--color-dark--);
+}
+
+.btn-enter{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--color-blue--);
+    transition: background-color .3s ease-in-out;
+}
+
+.btn-enter:hover{
+    background: #548cfd;
+    
+}
+
+.btn-create{
+    width: auto;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 9px;
+    color: #fff;
+    background: var(--color-green--);
+    transition: background-color .3s ease-in-out;
+}
+
+.btn-create:hover{
+    background: #30a01a;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-blue--);
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
